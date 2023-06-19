@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="小鳥カフェのオリジナルサイトです。">
+  <meta property="og:title" content="オリジナル小鳥カフェ">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="小鳥カフェのオリジナルサイトです。">
+  <title>オリジナル小鳥カフェ</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/common/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/common/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/common/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/common/mstile-150x150.png">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffaac1">
+</head>
+<body class="disabled-scroll">
+  <header class="l-header">
+    <div class="l-header__wrapper">
+      <div class="l-header-logo">
+        <a href="" class="logo">
+          <img src="assets/img/top/kotori-logo.svg" alt="ロゴ画像">
+        </a>
+      </div>
+      <div class="l-header__btn-menu">
+        <button class="c-btn-menu js-btn-menu">
+          <span class="c-btn-menu__line"></span>
+        </button>
+      </div>
+      <div class="l-header-phone">
+        <ul class="l-header-phone__list">
+          <li class="l-header-phone__item">
+            <a class="l-header-phone__link" href="">
+              <span class="circle"><i class="fa-solid fa-phone"></i></span>
+              <span class="text">ご予約</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="l-nav js-nav-contents">
+      <div class="l-nav__mask js-nav__mask"></div>
+      <div class="l-nav__wrapper">
+        <nav class="l-nav-global">
+          <ul class="l-nav-global__list">
+            <li class="l-nav-global__item js-nav-global__item">
+              <a class="l-nav-global__link " href="#concept">当店の想い</a>
+            </li>
+            <li class="l-nav-global__item js-nav-global__item">
+              <a class="l-nav-global__link" href="#staf">小鳥スタッフたち</a>
+            </li>
+            <li class="l-nav-global__item js-nav-global__item">
+              <a class="l-nav-global__link" href="#lunch">こだわりランチ</a>
+            </li>
+            <li class="l-nav-global__item js-nav-global__item">
+              <a class="l-nav-global__link" href="#access">アクセス</a>
+            </li>
+            <li class="l-nav-global__item js-nav-global__item">
+              <a class="l-nav-global__link" href="#faq">よくある質問</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="l-nav__sns js-nav__sns">
+          <div class="follow-us">
+            FOLLOW US
+          </div>
+          <ul class="l-nav__sns-list">
+            <li class="l-nav__sns-item">
+              <a class="l-nav__sns-link" href="">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="l-nav__sns-item">
+              <a class="l-nav__sns-link" href="">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="l-nav__sns-item">
+              <a class="l-nav__sns-link" href="">
+                <i class="fa-brands fa-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="p-hero">
+    <div class="p-hero__inner">
+      <div class="p-hero__wrapper">
+        <div class="swiper-container js-swiper-container u-radius">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img/top/hero-img01.jpg" alt="メインビジュアル画像01">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/top/hero-img02.jpg" alt="メインビジュアル画像02">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/top/hero-img03.jpg" alt="メインビジュアル画像03">
+            </div>
+          </div>
+        </div>
+        <div class="p-hero__message">個性豊かな<br>小鳥たちとの憩いの間</div>
+        <div class="p-hero__scroll"><span>SCROLL</span></div>
+        <div class="p-hero__camp-circle">
+          <span>期間限定<br>小鳥グッズ発売中!</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main class="l-contents">
+    <section id="news" class="p-news l-section js-fade-in">
+      <div class="p-news__inner l-inner">
+        <div class="p-news__heading js-fade-in">
+          <h2 class="c-heading__primary">
+            <span class="small">お知らせ</span>
+            <span class="large">NEWS</span>
+          </h2>
+        </div>
+        <div class="p-news-list js-fade-in">
+          <ul class="p-news-list__list">
+            <li class="p-news-list__item">
+              <time class="p-news-list__date" datetime="2023-06-01">2023年XX年XX日</time>
+              <a class="p-news-list__link" href="">現在の営業時間:11時〜18時※触れ合い体験受付は、17時前迄。ラストオーダーは、17時30分迄</a>
+            </li>
+            <li class="p-news-list__item">
+              <time class="p-news-list__date" datetime="2023-06-01">2023年XX年XX日</time>
+              <a class="p-news-list__link" href="">10月〜11月の定休日。10月4日・11日・18日・25日。11月1日・8日・15日・22日・29日。</a>
+            </li>
+            <li class="p-news-list__item">
+              <time class="p-news-list__date" datetime="2023-06-01">2023年XX年XX日</time>
+              <a class="p-news-list__link" href="">小鳥カフェスタッフ募集中。小鳥スタッフと一緒に働きませんか？</a>
+            </li>
+          </ul>
+          <div class="p-news__link">
+            <a class="c-arrow__link" href="">お知らせ一覧を見る</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="concept" class="p-concept l-section">
+      <div class="p-concept__inner l-inner js-fade-in">
+        <div class="p-concept__heading">
+          <h2 class="c-heading__primary">
+            <span class="small">当店の想い</span>
+            <span class="large">Concept</span>
+          </h2>
+        </div>
+        <div class="p-concept__message u-center">
+          <div class="p-concept__message-title">お客様も小鳥も安らぎを<br>感じられるお店に</div>
+          <div class="p-concept__message-text">
+            <p>
+              「小鳥たち１羽１羽が大切なお店のスタッフ」<br>「お客様の休暇の癒しになりたい」<br>「小鳥とお客様の間に豊かな感性が生まれて欲しい」<br>という想いをこめて小鳥と友のカフェは開店いたしました。<br>笑顔になれる・和むことができるカフェを目指しています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-interior l-section">
+      <div class="p-interior__inner l-inner">
+        <div class="p-interior__heading js-fade-in">
+          <h2 class="c-heading__primary">
+            <span class="small">お店の様子</span>
+            <span class="large">Store Interior</span>
+          </h2>
+        </div>
+        <div class="p-interior-list">
+          <ul class="p-interior-list__list">
+            <li class="p-interior-list__item js-fade-in">
+              <div class="p-interior-list__img-wrapper js-interior__slide">
+                <img class="u-radius" src="assets/img/top/store-img01.jpg" alt="店内の画像01">
+                <div class="js-interior__slide"></div>
+              </div>
+              <div class="p-interior-list__message">
+                <h3 class="p-interior-list__message-title right-title">店内は明るく<br class="u-sp-only">まったりとした雰囲気です♪</h3>
+                <div class="p-interior-list__message-text">
+                  <p>
+                    カラフルな椅子が立ち並ぶ店内は明るいながらもまったりとして雰囲気です♪<br>小鳥さんたちのお部屋にはたくさんのスタッフ(小鳥たち)が皆様をお出迎えいたします♪いろんなスタッフと交流しながらお過ごしください。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-interior-list__item js-fade-in">
+              <div class="p-interior-list__img-wrapper js-interior__slide right-image">
+                <img class="u-radius" src="assets/img/top/store-img02.jpg" alt="店内の画像02">
+                <div class="js-interior__slide"></div>
+              </div>
+              <div class="p-interior-list__message">
+                <h3 class="p-interior-list__message-title left-title">小鳥さんたちとの<br class="u-sp-only">モフモフRoomをご用意♪</h3>
+                <div class="p-interior-list__message-text right-text">
+                  <p>
+                    多くの小鳥さんたちとモフモフ触れ合うことができるので、たくさん触れて癒されに来てください。☆<br>モフモフRoomは5分間までで500円♪2021年1月から平日の触れ合い体験の受付時間を、15時までとさせていただきます。土日祝、長期休み期間は17時までです。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-interior-list__item js-fade-in">
+              <div class="p-interior-list__img-wrapper">
+                <img class="u-radius" src="assets/img/top/store-img03.jpg" alt="店内の画像03">
+                <div class="js-interior__slide"></div>
+              </div>
+              <div class="p-interior-list__message js-interior__fade">
+                <h3 class="p-interior-list__message-title right-title">小鳥さんグッズも<br class="u-sp-only">多数取り揃えております♪</h3>
+                <div class="p-interior-list__message-text">
+                  <p>ノートやペンといった文房具から靴下やカバンなど身に付けるものもございます。<br>大人気の『小鳥ドーナツ』『小鳥まんじゅう』のお持ち帰り用もございますので、お土産やプレゼントに是非♪</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="staf" class="p-staf l-section">
+      <div class="p-staf__inner l-inner">
+        <div class="p-staf__heading js-fade-in">
+          <h2 class="c-heading__primary">
+            <span class="small">小鳥スタッフ</span>
+            <span class="large">Bird Staf</span>
+          </h2>
+        </div>
+        <div class="p-staf-member">
+          <div class="p-staf-member__tap-indc">
+            <img src="assets/img/top/tap-circle.png" alt="タップを促す円状の画像">
+          </div>
+          <ul class="p-staf-member__list">
+            <li class="p-staf-member__item">
+              <div class="p-staf-member-btn js-modal-btn js-fade-in" data-layer="taichLayer">
+                <div class="p-staf-member-btn__img-wrapper">
+                  <img src="assets/img/top/staf-img01.jpg" alt="タイハクオウムの太一くんの画像">
+                </div>
+                <div class="p-staf-member-btn__heading">
+                  <div class="p-staf-member-btn__nickname">太一くん</div>
+                  <span class="p-staf-member-btn__kinds">タイハクオウム</span>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window js-modal-window" id="taich">
+                <div class="p-staf-member-modal-window__img-wrapper">
+                  <img src="assets/img/top/staf-img01.jpg" alt="タイハクオウムの太一くんの画像">
+                </div>
+                <div class="p-staf-member-modal-window__body">
+                  <div class="p-staf-member-modal-window__heading">
+                    <div class="p-staf-member-modal-window__nickname">太一くん</div>
+                    <span class="p-staf-member-modal-window__kinds">タイハクオウム</span>
+                  </div>
+                  <div class="p-staf-member-modal-window__desc">
+                    <p>好奇心旺盛で、お客さんと遊ぶのが大好きな太一くん♪賢くてお客様への触れ合いにとても積極的です。</p>
+                  </div>
+                  <div class="p-staf-member-modal-window__close js-modal-window__close" data-bird="taich"
+                    data-layer="taichLayer"></div>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window__backlayer js-modal-window__backlayer" id="taichLayer"></div>
+            </li>
+            <li class="p-staf-member__item">
+              <div class="p-staf-member-btn js-modal-btn js-fade-in" data-layer="totoLayer">
+                <div class="p-staf-member-btn__img-wrapper">
+                  <img src="assets/img/top/staf-img02.jpg" alt="オカメインコのトトちゃんの画像">
+                </div>
+                <div class="p-staf-member-btn__heading">
+                  <div class="p-staf-member-btn__nickname">トトちゃん</div>
+                  <span class="p-staf-member-btn__kinds">オカメインコ</span>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window js-modal-window" id="toto">
+                <div class="p-staf-member-modal-window__img-wrapper">
+                  <img src="assets/img/top/staf-img02.jpg" alt="オカメインコのトトちゃんの画像">
+                </div>
+                <div class="p-staf-member-modal-window__body">
+                  <div class="p-staf-member-modal-window__heading">
+                    <div class="p-staf-member-modal-window__nickname">トトちゃん</div>
+                    <span class="p-staf-member-modal-window__kinds">オカメインコ</span>
+                  </div>
+                  <div class="p-staf-member-modal-window__desc">
+                    <p>ひまわりの種が大好きで食いしん坊なトトちゃん♪気分がいいととさかが立つところがチャームポイントです。</p>
+                  </div>
+                  <div class="p-staf-member-modal-window__close js-modal-window__close" data-bird="toto"
+                    data-layer="totoLayer"></div>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window__backlayer js-modal-window__backlayer" id="totoLayer"></div>
+            </li>
+
+            <li class="p-staf-member__item">
+              <div class="p-staf-member-btn js-modal-btn js-fade-in" data-layer="uniLayer">
+                <div class="p-staf-member-btn__img-wrapper">
+                  <img src="assets/img/top/staf-img03.jpg" alt="ウロコインコのうにちゃんの画像">
+                </div>
+                <div class="p-staf-member-btn__heading">
+                  <div class="p-staf-member-btn__nickname">うにちゃん</div>
+                  <span class="p-staf-member-btn__kinds">ウロコインコ</span>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window js-modal-window" id="uni">
+                <div class="p-staf-member-modal-window__img-wrapper">
+                  <img src="assets/img/top/staf-img03.jpg" alt="ウロコインコのうにちゃんの画像">
+                </div>
+                <div class="p-staf-member-modal-window__body">
+                  <div class="p-staf-member-modal-window__heading">
+                    <div class="p-staf-member-modal-window__nickname">うにちゃん</div>
+                    <span class="p-staf-member-modal-window__kinds">ウロコインコ</span>
+                  </div>
+                  <div class="p-staf-member-modal-window__desc">
+                    <p>にぎころしてもらうのが大好きなうにちゃん♪ぜひ、手のひらに乗せて撫でてあげてくださいね。</p>
+                  </div>
+                  <div class="p-staf-member-modal-window__close js-modal-window__close" data-bird="uni"
+                    data-layer="uniLayer"></div>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window__backlayer js-modal-window__backlayer" id="uniLayer"></div>
+            </li>
+
+
+            <li class="p-staf-member__item">
+              <div class="p-staf-member-btn js-modal-btn js-fade-in" data-layer="ikuraLayer">
+                <div class="p-staf-member-btn__img-wrapper">
+                  <img src="assets/img/top/staf-img04.jpg" alt="オカメインコのいくらちゃんの画像">
+                </div>
+                <div class="p-staf-member-btn__heading">
+                  <div class="p-staf-member-btn__nickname">いくらちゃん</div>
+                  <span class="p-staf-member-btn__kinds">オカメインコ</span>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window js-modal-window" id="ikura">
+                <div class="p-staf-member-modal-window__img-wrapper">
+                  <img src="assets/img/top/staf-img04.jpg" alt="オカメインコのいくらちゃんの画像">
+                </div>
+                <div class="p-staf-member-modal-window__body">
+                  <div class="p-staf-member-modal-window__heading">
+                    <div class="p-staf-member-modal-window__nickname">いくらちゃん</div>
+                    <span class="p-staf-member-modal-window__kinds">オカメインコ</span>
+                  </div>
+                  <div class="p-staf-member-modal-window__desc">
+                    <p>穏やかでマイペースないくらちゃん♪インコやオウムを触ったことがないお客様にオススメの子です。</p>
+                  </div>
+                  <div class="p-staf-member-modal-window__close js-modal-window__close" data-bird="ikura"
+                    data-layer="ikuraLayer"></div>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window__backlayer js-modal-window__backlayer" id="ikuraLayer"></div>
+            </li>
+
+            <li class="p-staf-member__item">
+              <div class="p-staf-member-btn js-modal-btn js-fade-in" data-layer="hotateLayer">
+                <div class="p-staf-member-btn__img-wrapper">
+                  <img src="assets/img/top/staf-img05.jpg" alt="シナモン文鳥のほたてくんの画像">
+                </div>
+                <div class="p-staf-member-btn__heading">
+                  <div class="p-staf-member-btn__nickname">ほたてくん</div>
+                  <span class="p-staf-member-btn__kinds">シナモン文鳥</span>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window js-modal-window" id="hotate">
+                <div class="p-staf-member-modal-window__img-wrapper">
+                  <img src="assets/img/top/staf-img05.jpg" alt="シナモン文鳥のほたてくんの画像">
+                </div>
+                <div class="p-staf-member-modal-window__body">
+                  <div class="p-staf-member-modal-window__heading">
+                    <div class="p-staf-member-modal-window__nickname">ほたてちゃん</div>
+                    <span class="p-staf-member-modal-window__kinds">シナモン文鳥</span>
+                  </div>
+                  <div class="p-staf-member-modal-window__desc">
+                    <p>活発で明るく、人懐っこいほたてちゃん♪インコやオウムを触ったことがないお客様にオススメの子です。</p>
+                  </div>
+                  <div class="p-staf-member-modal-window__close js-modal-window__close" data-bird="hotate"
+                    data-layer="hotateLayer"></div>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window__backlayer js-modal-window__backlayer" id="hotateLayer"></div>
+            </li>
+
+            <li class="p-staf-member__item">
+              <div class="p-staf-member-btn js-modal-btn js-fade-in" data-layer="denLayer">
+                <div class="p-staf-member-btn__img-wrapper">
+                  <img src="assets/img/top/staf-img06.jpg" alt="コザクラインコのでんちゃんの画像">
+                </div>
+                <div class="p-staf-member-btn__heading">
+                  <div class="p-staf-member-btn__nickname">でんちゃん</div>
+                  <span class="p-staf-member-btn__kinds">コザクラインコ</span>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window js-modal-window" id="den">
+                <div class="p-staf-member-modal-window__img-wrapper">
+                  <img src="assets/img/top/staf-img06.jpg" alt="コザクラインコのでんちゃんの画像">
+                </div>
+                <div class="p-staf-member-modal-window__body">
+                  <div class="p-staf-member-modal-window__heading">
+                    <div class="p-staf-member-modal-window__nickname">でんちゃん</div>
+                    <span class="p-staf-member-modal-window__kinds">コザクラインコ</span>
+                  </div>
+                  <div class="p-staf-member-modal-window__desc">
+                    <p>愛情深いでんちゃん♪白い妖精さんのような見た目が特徴的です。首をなでなでしてもらうのが大好きです!</p>
+                  </div>
+                  <div class="p-staf-member-modal-window__close js-modal-window__close" data-bird="den"
+                    data-layer="denLayer"></div>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window__backlayer js-modal-window__backlayer" id="denLayer"></div>
+            </li>
+            <li class="p-staf-member__item">
+              <div class="p-staf-member-btn js-modal-btn js-fade-in" data-layer="sinamonLayer">
+                <div class="p-staf-member-btn__img-wrapper">
+                  <img src="assets/img/top/staf-img07.jpg" alt="シマエナガのシナモンちゃんの画像">
+                </div>
+                <div class="p-staf-member-btn__heading">
+                  <div class="p-staf-member-btn__nickname">シナモンちゃん</div>
+                  <span class="p-staf-member-btn__kinds">シマエナガ</span>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window js-modal-window" id="sinamon">
+                <div class="p-staf-member-modal-window__img-wrapper">
+                  <img src="assets/img/top/staf-img07.jpg" alt="シマエナガのシナモンちゃんの画像">
+                </div>
+                <div class="p-staf-member-modal-window__body">
+                  <div class="p-staf-member-modal-window__heading">
+                    <div class="p-staf-member-modal-window__nickname">シナモンちゃん</div>
+                    <span class="p-staf-member-modal-window__kinds">シマエナガ</span>
+                  </div>
+                  <div class="p-staf-member-modal-window__desc">
+                    <p>シマエナガを手に乗せてみたい！近くで見てみたい!そんなふうに思ったことはありませんか？当店ではシマエナガちゃんとも触れ合うことができます！</p>
+                  </div>
+                  <div class="p-staf-member-modal-window__close js-modal-window__close" data-bird="sinamon"
+                    data-layer="sinamonLayer"></div>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window__backlayer js-modal-window__backlayer" id="sinamonLayer"></div>
+            </li>
+            <li class="p-staf-member__item">
+              <div class="p-staf-member-btn js-modal-btn js-fade-in" data-layer="midoriLayer">
+                <div class="p-staf-member-btn__img-wrapper">
+                  <img src="assets/img/top/staf-img08.jpg" alt="セキセイインコのみどりちゃんの画像">
+                </div>
+                <div class="p-staf-member-btn__heading">
+                  <div class="p-staf-member-btn__nickname">みどりちゃん</div>
+                  <span class="p-staf-member-btn__kinds">セキセイインコ</span>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window js-modal-window" id="midori">
+                <div class="p-staf-member-modal-window__img-wrapper">
+                  <img src="assets/img/top/staf-img08.jpg" alt="セキセイインコのみどりちゃんの画像">
+                </div>
+                <div class="p-staf-member-modal-window__body">
+                  <div class="p-staf-member-modal-window__heading">
+                    <div class="p-staf-member-modal-window__nickname">みどりちゃん</div>
+                    <span class="p-staf-member-modal-window__kinds">セキセイインコ</span>
+                  </div>
+                  <div class="p-staf-member-modal-window__desc">
+                    <p>実はサイト主のセキセイインコさんです！みどりちゃん(♂)4歳です♪
+                      <br>みどりちゃんは、とっても食いしん坊で甘えん坊です。いっぱいご飯を食べるので、普通のセキセイインコの平均体重は30~40gだけどみどりちゃんは52g体重があります!おしゃべりもよくしてくれます。「ポカポカ星からやってきました」って自己紹介してくれますよ(笑)<br>
+                      みどりちゃんはもう４歳になったけど、時間が経つのってあっという間だな。これからもよろしくね。みどりちゃん♪
+                    </p>
+                  </div>
+                  <div class="p-staf-member-modal-window__close js-modal-window__close" data-bird="midori"
+                    data-layer="midoriLayer"></div>
+                </div>
+              </div>
+              <div class="p-staf-member-modal-window__backlayer js-modal-window__backlayer" id="midoriLayer"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="lunch" class="p-lanch l-section">
+      <div class="p-lunch__inner l-inner">
+        <div class="p-lanch__heading js-fade-in">
+          <h2 class="c-heading__primary">
+            <span class="small">こだわりランチ</span>
+            <span class="large">Original Lanch</span>
+          </h2>
+        </div>
+        <div class="p-lunch-menu">
+          <ul class="p-lunch-menu__list">
+            <li class="p-lunch-menu__item js-fade-in">
+              <div class="p-lunch-menu__img-wrapper u-radius">
+                <img class="u-radius" src="assets/img/top/lunch-img01.jpg" alt="小鳥ドーナツ&ドリンクの画像">
+              </div>
+              <div class="p-lunch-menu__body">
+                <div class="p-lunch-menu__title">小鳥ドーナツ&ドリンク</div>
+                <span class="p-lunch-menu__price">1265円(お子様料金 1045円)</span>
+              </div>
+            </li>
+            <li class="p-lunch-menu__item js-fade-in label">
+              <div class="p-lunch-menu__img-wrapper  u-radius">
+                <img class="u-radius" src="assets/img/top/lunch-img02.jpg" alt="小鳥オムライス&スープの画像">
+              </div>
+              <div class="p-lunch-menu__body">
+                <div class="p-lunch-menu__title">小鳥オムライス&スープ</div>
+                <span class="p-lunch-menu__price">1375円(お子様料金 1155円)</span>
+              </div>
+            </li>
+            <li class="p-lunch-menu__item second-lunch js-fade-in">
+              <div class="p-lunch-menu__img-wrapper second-lunch  u-radius">
+                <img class="u-radius" src="assets/img/top/lunch-img03.jpg" alt="小鳥パンケーキの画像">
+              </div>
+              <div class="p-lunch-menu__body">
+                <div class="p-lunch-menu__title sub-title">小鳥パンケーキ</div>
+                <span class="p-lunch-menu__price">1365円(お子様料金 1145円)</span>
+              </div>
+            </li>
+            <li class="p-lunch-menu__item second-lunch js-fade-in">
+              <div class="p-lunch-menu__img-wrapper second-lunch u-radius">
+                <img class="u-radius" src="assets/img/top/lunch-img04.jpg" alt="小鳥アイスソーダの画像">
+              </div>
+              <div class="p-lunch-menu__body">
+                <div class="p-lunch-menu__title sub-title">小鳥アイスソーダ</div>
+                <span class="p-lunch-menu__price">770円(お子様料金 720円)</span>
+              </div>
+            </li>
+            <li class="p-lunch-menu__item second-lunch js-fade-in">
+              <div class="p-lunch-menu__img-wrapper second-lunch u-radius">
+                <img class="u-radius" src="assets/img/top/lunch-img05.jpg" alt="小鳥プリン">
+              </div>
+              <div class="p-lunch-menu__body">
+                <div class="p-lunch-menu__title sub-title">小鳥プリン</div>
+                <span class="p-lunch-menu__price">980円(お子様料金 860円)</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="access" class="p-access l-section">
+      <div class="p-access__inner l-inner">
+        <div class="p-access__heading js-fade-in">
+          <h2 class="c-heading__primary">
+            <span class="small">アクセス</span>
+            <span class="large">Access</span>
+          </h2>
+        </div>
+        <div class="p-access__wrapper js-fade-in">
+          <div class="p-access-map u-radius">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.251097416063!2d139.76757671525982!3d35.720042680185195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188de813e5392f%3A0x37275b8404967c90!2z44GT44Go44KK44Kr44OV44Kn5LiK6YeO5pys5bqX!5e0!3m2!1sja!2sjp!4v1686295127245!5m2!1sja!2sjp"
+              frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          <div class="p-access__body">
+            <dl class="adress">
+              <dt>〒110-0002<br>東京都台東区上野桜木1丁目8-6</dt>
+              <dd>
+                <a href="">
+                  <span>Google Map</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </dd>
+            </dl>
+            <dl class="phone-access">
+              <dt><i class="fa-solid fa-train"></i><span>駅~カフェ</span></dt>
+              <dd>東京メトロ千代田線根津駅より徒歩約8分ほど</dd>
+              <dd>JR日暮里駅より徒歩約15分京成上野駅より徒歩約15分</dd>
+              <dd>JR上野駅公園口より徒歩約17分東西めぐりん「谷中清水公園」バス停目の前（浅草駅や上野駅より乗り換えなし、運賃100円でご利用いただけます）</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq" class="p-faq l-section">
+      <div class="p-faq__inner l-inner">
+        <div class="p-faq__heading js-fade-in">
+          <h2 class="c-heading__primary">
+            <span class="small">よくある質問</span>
+            <span class="large">Q&A</span>
+          </h2>
+        </div>
+        <div class="p-faq-contents js-fade-in">
+          <ul class="p-faq-contents__list">
+            <li class="p-faq-contents__item u-radius">
+              <div class="p-faq-contents__row js-faq-accordion__title u-radius">
+                <span class="mark"><img src="assets/img/common/q-mark.png"></span>
+                <span class="text">席の予約はできますか？</span>
+              </div>
+              <div class="p-faq-contents__open-row close js-faq-accordion__text">
+                <span class="mark"><img src="assets/img/common/a-mark.png"></span>
+                <span class="text">お電話のみ承ります。(小鳥カフェ上野本店 03-6427-5115)</span>
+              </div>
+            </li>
+            <li class="p-faq-contents__item u-radius">
+              <div class="p-faq-contents__row js-faq-accordion__title u-radius">
+                <span class="mark"><img src="assets/img/common/q-mark.png"></span>
+                <span class="text">オフ会をしたいのですが、個室の予約はできますか？</span>
+              </div>
+              <div class="p-faq-contents__open-row js-faq-accordion__text">
+                <span class="mark"><img src="assets/img/common/a-mark.png"></span>
+                <span class="text">オフ会や貸切パーティーなどご利用可能です。</span>
+              </div>
+            </li>
+            <li class="p-faq-contents__item u-radius">
+              <div class="p-faq-contents__row js-faq-accordion__title u-radius">
+                <span class="mark"><img src="assets/img/common/q-mark.png"></span>
+                <span class="text">触れ合いコーナーはいつでも触れ合えるのですか？</span>
+              </div>
+              <div class="p-faq-contents__open-row  close js-faq-accordion__text">
+                <span class="mark"><img src="assets/img/common/a-mark.png"></span>
+                <span class="text">店舗により異なりますので、店舗ページをご確認ください。<br>※全店舗とも未就学児のご利用はできません。</span>
+              </div>
+            </li>
+            <li class="p-faq-contents__item u-radius">
+              <div class="p-faq-contents__row js-faq-accordion__title u-radius">
+                <span class="mark"><img src="assets/img/common/q-mark.png"></span>
+                <span class="text">店内にいる鳥さんの写真は撮ってもいいですか？</span>
+              </div>
+              <div class="p-faq-contents__open-row  close js-faq-accordion__text">
+                <span class="mark"><img src="assets/img/common/a-mark.png"></span>
+                <span
+                  class="text">撮影・動画ともOKです。<br>ブログやFacebookに投稿も自由です。(他のお席のお客様が写らないようにご注意ください)フラッシュ撮影や大きな機材の持ち込みは、小鳥スタッフが驚いてしまいますので、禁止とさせていただいております。</span>
+              </div>
+            </li>
+            <li class="p-faq-contents__item u-radius">
+              <div class="p-faq-contents__row js-faq-accordion__title u-radius">
+                <span class="mark"><img src="assets/img/common/q-mark.png"></span>
+                <span class="text">鳥グッズを置いていただくことはできますか？</span>
+              </div>
+              <div class="p-faq-contents__open-row close js-faq-accordion__text">
+                <span class="mark"><img src="assets/img/common/a-mark.png"></span>
+                <span class="text">※現在委託販売は受付しておりません。</span>
+              </div>
+            </li>
+            <li class="p-faq-contents__item u-radius">
+              <div class="p-faq-contents__row js-faq-accordion__title u-radius">
+                <span class="mark"><img src="assets/img/common/q-mark.png"></span>
+                <span class="text">鳥グッズを購入したいのですが、お茶をせずにグッズだけ購入することは可能ですか？</span>
+              </div>
+              <div class="p-faq-contents__open-row close js-faq-accordion__text">
+                <span class="mark"><img src="assets/img/common/a-mark.png"></span>
+                <span class="text">グッズのみのご来店も大歓迎です。<br>カフェのお客様が行列されている場合は、並ばずに店内にお入りいただいて結構です。</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="p-contact l-section">
+      <div class="p-contact__inner l-inner">
+        <div class="p-contact__heading js-fade-in">
+          <h2 class="c-heading__primary">
+            <span class="small">お問い合わせ</span>
+            <span class="large">Contact</span>
+          </h2>
+        </div>
+        <form action="" method="post" class="p-contact__form js-fade-in">
+          <label for="name">
+            <span class="required">必須</span>
+            <span class="title">お名前</span>
+          </label>
+          <input class="u-radius" type="text" name="name" value="">
+          <label for="email">
+            <span class="required">必須</span>
+            <span class="title">メールアドレス</span>
+          </label>
+          <input class="u-radius" type="text" name="email" value="">
+          <label for="inquiry">
+            <span class="required">必須</span>
+            <span class="title">お問い合わせ内容</span>
+          </label>
+          <textarea class="u-radius" name="inquiry" value=""></textarea>
+          <div class="p-contact__form-submit-wrapper u-center">
+            <button class="c-btn" type="submit">送信する</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="p-slider">
+      <ul class="p-slider__list">
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img01.jpg" alt="スライド画像01">
+        </li>
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img02.jpg" alt="スライド画像02">
+        </li>
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img03.jpg" alt="スライド画像03">
+        </li>
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img04.jpg" alt="スライド画像04">
+        </li>
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img05.jpg" alt="スライド画像05">
+        </li>
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img06.jpg" alt="スライド画像06">
+        </li>
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img07.jpg" alt="スライド画像07">
+        </li>
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img08.jpg" alt="スライド画像08">
+        </li>
+        <li class="p-slider__item">
+          <img src="assets/img/top/flowing-slide__img09.jpg" alt="スライド画像09">
+        </li>
+      </ul>
+    </div>
+    </div>
+    </div>
+  </main>
+  <footer class="l-footer">
+    <div class="l-footer__inner l-inner">
+      <div class="l-footer__left">
+        <div class="l-footer__logo">
+          <a href="">
+            <img src="assets/img/top/kotori-logo.svg">
+          </a>
+        </div>
+        <div class="l-footer-nav__sns">
+          <ul class="l-footer-nav__sns-list">
+            <li class="l-footer-nav__sns-item">
+              <a href="" class="l-footer-nav__sns-link">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li class="l-footer-nav__sns-item">
+              <a href="" class="l-footer-nav__sns-link">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+            </li>
+            <li class="l-footer-nav__sns-item">
+              <a href="" class="l-footer-nav__sns-link">
+                <i class="fa-brands fa-line"></i>
+                <span>Line</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="l-footer__copyright">
+          <small>&copy;2023 kotori mochi cafe</small>
+        </div>
+      </div>
+      <div class="l-footer__right">
+        <div class="l-footer__address-contents">
+          <img src="assets/img/top/adress-contents.svg">
+        </div>
+        <div class="l-footer-nav">
+          <ul class="l-footer-nav__list">
+            <li class="l-footer-nav__item">
+              <a href="" class="l-footer-nav__link">ホーム</a>
+            </li>
+            <li class="l-footer-nav__item">
+              <a href="#concept" class="l-footer-nav__link">当店の想い</a>
+            </li>
+            <li class="l-footer-nav__item">
+              <a href="#staf" class="l-footer-nav__link">小鳥スタッフたち</a>
+            </li>
+            <li class="l-footer-nav__item">
+              <a href="#lunch" class="l-footer-nav__link">こだわりランチ</a>
+            </li>
+            <li class="l-footer-nav__item">
+              <a href="#access" class="l-footer-nav__link">アクセス</a>
+            </li>
+            <li class="l-footer-nav__item">
+              <a href="#faq" class="l-footer-nav__link">よくある質問</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="c-page-top js-page-top">
+    <a href="#" class="c-page-top__link"><i class="fa-solid fa-chevron-up"></i></a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="assets/js/adobefont.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
