@@ -2001,7 +2001,7 @@ th {
 
 .p-concept__inner {
   padding: 90px 0 72px;
-  background: url("../assets/img/top/concept-bg01.png") center center/contain no-repeat, url("../assets/img/top/concept-bg02.png") center center/contain no-repeat;
+  background: url("../img/top/concept-bg01.png") center center/contain no-repeat, url("../img/top/concept-bg02.png") center center/contain no-repeat;
   -webkit-transform: translateY(50px);
      -moz-transform: translateY(50px);
       -ms-transform: translateY(50px);
@@ -2024,7 +2024,7 @@ th {
 }
 @media screen and (max-width: 767px) {
   .p-concept__inner {
-    background: url("../assets/img/responsive/concept-bg_sp.png") center center/contain no-repeat;
+    background: url("../img/responsive/concept-bg_sp.png") center center/contain no-repeat;
     padding: 0;
   }
 }
