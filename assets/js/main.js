@@ -95,12 +95,17 @@
       headerLogo.classList.add('active');
       btnMenu.classList.add('active');
       navContents.classList.add('active');
-      headerSns.classList.add('appear');
-      navItems.forEach(navItem =>{
-        navItem.classList.add('appear');
+      setTimeout(() => {
+        headerSns.classList.add('appear');
+      }, 500);
+      navItems.forEach(navItem => {
+        setTimeout(() => {
+          navItem.classList.add('appear');
+        }, 1000);
       });
+
     }
-    if (clickCount === 2){
+    if (clickCount === 2) {
       clickCount = 0;
       disabledScroll.classList.remove('active');
       headerLogo.classList.remove('active');
@@ -112,8 +117,8 @@
       });
     }
   });
-  navItems.forEach(navItem =>{
-    navItem.children[0].addEventListener('click', () =>{
+  navItems.forEach(navItem => {
+    navItem.children[0].addEventListener('click', () => {
       clickCount = 0;
       disabledScroll.classList.remove('active');
       btnMenu.classList.remove('active');
