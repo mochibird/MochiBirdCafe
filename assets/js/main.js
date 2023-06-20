@@ -137,6 +137,8 @@
     adaptiveHeight: true,
     speed: 6900,
     infinite: true,
+       pauseOnHover: false,
+    pauseOnFocus: false,
     cssEase: 'linear',
     slidesToShow: 4,
     slidesToScroll: 1,
