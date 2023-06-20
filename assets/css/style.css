@@ -2438,7 +2438,7 @@ th {
        -o-transform: rotate(-45deg);
           transform: rotate(-45deg);
   cursor: pointer;
-  background: transparent url(../assets/img/common/plus.png) center center/contain no-repeat;
+  background: transparent url(../img/common/plus.png) center center/contain no-repeat;
   z-index: 101;
 }
 @media screen and (max-width: 960px) {
@@ -3022,7 +3022,7 @@ th {
   display: block;
   position: absolute;
   content: "";
-  background: transparent url(../assets/img/common/plus.png) no-repeat center center/contain;
+  background: transparent url(../img/common/plus.png) no-repeat center center/contain;
   top: -webkit-calc(50% - 10px);
   top: -moz-calc(50% - 10px);
   top: calc(50% - 10px);
