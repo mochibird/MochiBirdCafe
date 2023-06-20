@@ -1578,7 +1578,7 @@ th {
 }
 @media screen and (max-width: 960px) {
   .p-news-list {
-    margin-top: -30px;
+    margin-top: -10px;
   }
 }
 .p-news-list__item {
