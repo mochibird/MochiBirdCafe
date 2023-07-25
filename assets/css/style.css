@@ -1345,7 +1345,7 @@ th {
   position: fixed;
   bottom: 40px;
   right: 32px;
-  z-index: 100;
+  z-index: 98;
   border-radius: 50%;
   -webkit-transform: translateY(50px);
       -ms-transform: translateY(50px);
